@@ -1,0 +1,2 @@
+# Unreachable Code in Julia
+This example demonstrates a common error in Julia: unreachable code within a function.  The `println` statement and the final `return 0` in `myfunction` will never execute because the `if-elseif-else` block covers all possibilities. This can be a subtle bug, especially in larger functions.
